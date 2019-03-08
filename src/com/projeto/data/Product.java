@@ -27,6 +27,9 @@ public class Product {
 		return price;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Name: " + this.name + " File " + this.file +  " Price " + this.price + "\n";
+	}
 	
 }
